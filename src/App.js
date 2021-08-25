@@ -1,11 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './CSS/main.css'
+import 'font-awesome/css/font-awesome.min.css';
+import {BrowserRouter} from 'react-router-dom';
+import Header from './Header/Header'
+import Body from './Body/Body'
+
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <div className="App">
+
+        <Header></Header>
+
+        <Body></Body>
+
+        
+
       
     </div>
+    </BrowserRouter>
   );
 }
 
