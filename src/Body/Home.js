@@ -9,7 +9,7 @@ class Home extends Component{
 					<h1>Bike And Car Rental System</h1>
 					<p>Nepal's First Online Rental System</p>
 					<ul class="actions">
-						<li><a href="/customer/insert" class="button scrolly">Register Here</a></li>
+						<li><a href="/register" class="button scrolly">Register Here</a></li>
 					</ul>
 				</div>
 			</section>

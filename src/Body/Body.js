@@ -3,11 +3,13 @@ import {Route} from 'react-router-dom'
 
 
 import Home from './Home'
+import Register from "./Register"
 export default class Body extends Component{
     render(){
         return(
             <div>
                 <Route path='/' exact component= {Home}/>
+                <Route path='/register' exact component= {Register}/>
             </div>
         )
     }
