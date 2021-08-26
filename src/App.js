@@ -5,6 +5,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import {BrowserRouter} from 'react-router-dom';
 import Header from './Header/Header'
 import Body from './Body/Body'
+import Footer from './Footer/Footer'
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <Header></Header>
 
         <Body></Body>
+
+        <Footer></Footer>
 
         
 
