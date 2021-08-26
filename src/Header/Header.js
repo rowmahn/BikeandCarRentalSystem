@@ -12,10 +12,10 @@ class Header extends Component{
     render(){
 
         if (localStorage.getItem('token')){
-           var header= <a href="/customer/login" onClick={this.logout} class="button alt">Log Out</a>
+           var header= <a href="/login" onClick={this.logout} class="button alt">Log Out</a>
         }
         else{
-            var header= <a href="/customer/login" class="button alt">Log In</a>
+            var header= <a href="/login" class="button alt">Log In</a>
         }
 
         return(
