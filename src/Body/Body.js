@@ -1,5 +1,6 @@
 import { Component } from "react"
 import {Route} from 'react-router-dom'
+import Bike from "./Bike"
 
 
 import Home from './Home'
@@ -12,6 +13,7 @@ export default class Body extends Component{
                 <Route path='/' exact component= {Home}/>
                 <Route path='/register' exact component= {Register}/>
                 <Route path='/login' exact component={Login}/>
+                <Route path='/vehicle/bike' exact component={Bike}/>
             </div>
         )
     }
