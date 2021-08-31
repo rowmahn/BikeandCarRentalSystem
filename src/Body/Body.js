@@ -9,6 +9,8 @@ import Register from "./Register"
 import Bike from "./Bike"
 import Car from "./Car"
 import AddVehicle from './AddVehicle'
+import MyProfile from './MyProfile'
+
 
 export default class Body extends Component{
     render(){
@@ -20,6 +22,8 @@ export default class Body extends Component{
                 <Route path='/vehicle/bike' exact component={Bike}/>
                 <Route path='/vehicle/car' exact component={Car}/>
                 <Route path='/vehicle/insert' exact component = {AddVehicle}/>
+                <Route path='/customer/myprofile' exact component = {AddVehicle}/>
+
 
             </div>
         )
