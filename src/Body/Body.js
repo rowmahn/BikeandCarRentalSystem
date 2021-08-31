@@ -22,7 +22,7 @@ export default class Body extends Component{
                 <Route path='/vehicle/bike' exact component={Bike}/>
                 <Route path='/vehicle/car' exact component={Car}/>
                 <Route path='/vehicle/insert' exact component = {AddVehicle}/>
-                <Route path='/customer/myprofile' exact component = {AddVehicle}/>
+                <Route path='/customer/myprofile' exact component = {MyProfile}/>
 
 
             </div>
