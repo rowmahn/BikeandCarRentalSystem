@@ -52,7 +52,7 @@ class Register extends Component{
     }
     render(){
         if (this.state.registerCheck === true){
-            window.location.href = '/customer/login'
+            window.location.href = '/login'
         }
 
         if(this.state.message){
