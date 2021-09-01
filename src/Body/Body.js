@@ -10,6 +10,7 @@ import Bike from "./Bike"
 import Car from "./Car"
 import AddVehicle from './AddVehicle'
 import MyProfile from './MyProfile'
+import MyVehicle from './MyVehicle'
 
 
 export default class Body extends Component{
@@ -23,6 +24,7 @@ export default class Body extends Component{
                 <Route path='/vehicle/car' exact component={Car}/>
                 <Route path='/vehicle/insert' exact component = {AddVehicle}/>
                 <Route path='/customer/myprofile' exact component = {MyProfile}/>
+                <Route path='/myvehicle' exact component={MyVehicle}/>
 
 
             </div>
