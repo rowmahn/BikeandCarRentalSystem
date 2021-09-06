@@ -11,7 +11,7 @@ import Car from "./Car"
 import AddVehicle from './AddVehicle'
 import MyProfile from './MyProfile'
 import MyVehicle from './MyVehicle'
-
+import UpdateVehicle from "./UpdateVehicle"
 
 export default class Body extends Component{
     render(){
@@ -25,6 +25,7 @@ export default class Body extends Component{
                 <Route path='/vehicle/insert' exact component = {AddVehicle}/>
                 <Route path='/customer/myprofile' exact component = {MyProfile}/>
                 <Route path='/myvehicle' exact component={MyVehicle}/>
+                <Route path= '/myvehicle/update/:id' exact component={UpdateVehicle}/>
 
 
             </div>
