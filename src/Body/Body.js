@@ -14,6 +14,7 @@ import MyVehicle from './MyVehicle'
 import UpdateVehicle from "./UpdateVehicle"
 import RentVehicle from './RentVehicle'
 import Bill from "./Bill"
+import ConfirmationPage from "./ConfirmationPage"
 
 export default class Body extends Component{
     render(){
@@ -30,7 +31,7 @@ export default class Body extends Component{
                 <Route path= '/myvehicle/update/:id' exact component={UpdateVehicle}/>
                 <Route path= '/vehicle/rent/:id' exact component={RentVehicle}/>
                 <Route path='/bill' exact component={Bill}/>
-                
+                <Route path='/confirmationpage' exact component={ConfirmationPage}/>
 
 
             </div>
